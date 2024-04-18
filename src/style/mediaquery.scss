@@ -1,16 +1,19 @@
+
 @media screen and (max-width: 1410px) {
   #work {
     > section {
       > article {
         .myWork {
-          width: 65%;
+          overflow-y: auto;
+          width: 90%;
           > img {
             width: 56%;
-            height: 16vmax;
           }
           > aside {
             height: 100%;
-            overflow-y: auto;
+            >p{
+              overflow-y: auto;
+            }
           }
         }
       }
@@ -26,6 +29,9 @@
         }
       }
     }
+    >a{
+      bottom: 18%;
+    }
   }
 }
 
@@ -35,7 +41,11 @@
     > section {
       > article {
         .myWork {
-          width: 60%;
+          width: 90%;
+          overflow-y: auto;
+          >img{
+            height: 50%;
+          }
         }
       }
     }
@@ -61,6 +71,36 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  nav {
+    padding: 0rem 1rem;
+    >button{
+      > svg {
+        display: inline;
+      }
+    }
+    > div {
+      > a {
+        display: none;
+      }
+    }
+    > a {
+      > button {
+        display: none;
+      }
+    }
+  }
+  #home{
+    position: relative;
+    >a{
+      bottom: -1%;
+    }
+    
+  }
+}
+
+
+
 @media screen and (max-width: 900px) {
   #work {
     > section {
@@ -74,11 +114,11 @@
             padding-top: 1rem;
             padding-bottom: 6rem;
             overflow-y: auto;
-            height: 90%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             > img {
-              height: 75%;
+               height: 50%;
             }
             > aside {
               height: 100%;
@@ -130,7 +170,7 @@
       > article {
         .carousel-root {
           .myWork {
-            width: 50%;
+            width: 90%;
           }
         }
       }
@@ -169,8 +209,6 @@
       > article {
         .carousel-root {
           .myWork {
-            width: 40%;
-            height: 80%;
             padding-bottom: 0rem;
             > img {
               width: 80%;
@@ -217,9 +255,7 @@
         }
       }
     }
-    > svg {
-      bottom: -5%;
-    }
+    
   }
   #timeline {
     .timelineBox {
@@ -250,10 +286,9 @@
       > article {
         .carousel-root {
           .myWork {
-            width: 36%;
             height: 100%;
             > img {
-              height: 40%;
+              height: 30%;
               width: 90%;
             }
           }
@@ -320,8 +355,8 @@
         }
       }
     }
-    > svg {
-      bottom: 5%;
+    >a {
+      display: none;
     }
   }
   #timeline {
@@ -357,10 +392,7 @@
     > section {
       > article {
         .carousel-root {
-          .myWork {
-            width: 30%;
-            height: 70%;
-          }
+
         }
       }
     }
@@ -381,29 +413,4 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  nav {
-    padding: 0rem 1rem;
-    >button{
-      > svg {
-        display: inline;
-      }
-    }
-    > div {
-      > a {
-        display: none;
-      }
-    }
-    > a {
-      > button {
-        display: none;
-      }
-    }
-  }
-  #home{
-    position: relative;
-    >svg{
-      bottom: -6%;
-    }
-  }
-}
+

@@ -13,7 +13,7 @@ const Header = ({menu,setmenu}) => {
 
 export const NavContent=({menu,setmenu})=>(
     <>
-    <h2>My Porfolio</h2>
+    <h2>ArtistryArc</h2>
     <div>
         <a onClick={()=>setmenu(!menu)} href="#home">Home</a>
         <a onClick={()=>setmenu(!menu)} href="#work">Work</a>

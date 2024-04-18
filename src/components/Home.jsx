@@ -76,7 +76,7 @@ const Home = () => {
                 <img src={myDp} alt="Rituraj" />
             </section>
 
-            <BsChevronDown />
+            <a href="#aboutme"><BsChevronDown /></a>
 
         </div>
     )

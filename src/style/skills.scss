@@ -20,13 +20,25 @@
             border-radius: 2rem;
             background-color: $color2_2;
             padding: 1rem;
-            >h2{
-                font-family: $font4;
-                letter-spacing: 0.5px;
-                margin-bottom: 1rem;
+            >div{
                 display: flex;
                 align-items: center;
-                gap: 1rem;
+                margin-bottom: 1rem;
+                justify-content: space-between;
+                >h2{
+                    font-family: $font4;
+                    letter-spacing: 0.5px;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+                >span{
+                    display: flex;
+                    gap: 1rem;
+                    >svg{
+                        font-size: 1.5rem;
+                    }
+                }
             }
             >p{
                 letter-spacing: 1px;

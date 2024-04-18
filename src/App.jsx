@@ -9,17 +9,32 @@ import Contact from './components/Contact'
 import { Toaster } from 'react-hot-toast'
 import Footer from './components/Footer'
 import { FaArrowCircleUp } from "react-icons/fa";
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+
 
 
 function App() {
-  
+
   const [menu, setmenu] = useState(false);
+  const [upArrow, setupArrow] = useState(false);
+  useEffect(() => {
+    const handleScrollBtn=()=>{
+      window.pageYOffset>300?setupArrow(true):setupArrow(false);
+    };
+    window.addEventListener("scroll", handleScrollBtn);
+
+  
+    return () => {
+      window.removeEventListener('scroll',handleScrollBtn);
+    }
+  }, []);
+  
+  
 
   return (
     <>
       <Menu menu={menu} setmenu={setmenu} />
-      <UpwardArrow/>
+      {upArrow && <UpwardArrow/>}
       <Header menu={menu} setmenu={setmenu}/>
       <Home/>
       <Work/>
@@ -44,7 +59,7 @@ function App() {
   )
 }
 const UpwardArrow=()=>(
-  <a href="#"><FaArrowCircleUp style={{
+  <a id='upwardArrow' href="#"><FaArrowCircleUp style={{
     position:'fixed',
     bottom:'4%',
     cursor:'pointer',

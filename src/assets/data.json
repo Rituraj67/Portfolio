@@ -1,41 +1,48 @@
 {
     "projects": [
       {
-        "date": "07/10/2022",
-        "title": "TECHY STAR",
-        "description": "This is the sample descri ption about the fsgsg detafd shfa hrherfd bfdbe gerhhehh fdddddd dddd hehe wrfb vcbils. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://reactone-nine.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+        "date": "11/04/2024",
+        "title": "Crypto Canvas",
+        "description": "Crypto Canvas is a dynamic web application designed to provide real-time data on various cryptocurrencies. Leveraging the CoinGecko API, the app fetches live cryptocurrency data and displays it using React.js, React Chart, and Chakra UI for enhanced visualization and user interface design.",
+        "url": "https://mycryptocanvas.vercel.app/",
+        "imgSrc": "https://i.postimg.cc/HkPJgJv7/Screenshot-2024-04-19-010518.png"
       },
   
       {
-        "date": "11/10/2022",
-        "title": "VIDEO HUB",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "date": "19/03/2024",
+        "title": "Key Chroma",
+        "description": "Key Chroma is a user-friendly password manager web application built to securely store usernames, passwords, and website URLs locally. Developed using React.js and styled with Tailwind CSS, SecurePass offers a streamlined and intuitive interface for managing sensitive login information.",
         "url": "https://react-video-app-eight.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+        "imgSrc": "https://i.postimg.cc/CK0w9kbN/Screenshot-2024-04-19-013731.png"
       },
       {
-        "date": "15/10/2022",
-        "title": "XCrypto",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "date": "14/04/2024",
+        "title": "ArtistryArc",
+        "description": "Artistry Arc is a captivating portfolio website meticulously crafted with React.js, SCSS, and Firebase integration. Designed to showcase your creative works and professional accomplishments, Artistry Arc offers a visually stunning and interactive platform for visitors to explore your portfolio and connect with you through a seamless contact form.",
         "url": "https://react-crypto-app-pi.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+        "imgSrc": "https://i.postimg.cc/xdBhW2rS/Screenshot-2024-04-19-013906.png"
       },
   
       {
-        "date": "17/10/2022",
-        "title": "REACT CART",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "date": "12/03/2024",
+        "title": "iScheduleia",
+        "description": "iScheduleia is a sleek and intuitive todo list application built with React.js and styled using Tailwind CSS. Designed to help users organize their tasks efficiently, Scheduleia stores todo items locally in the browser's storage, ensuring seamless access to task lists across sessions.",
         "url": "https://react-cart-eosin.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+        "imgSrc": "https://i.postimg.cc/qvT8DDDZ/Screenshot-2024-04-19-014033.png"
       },
       {
-        "date": "20/10/2022",
-        "title": "PORTFOLIO",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+        "date": "29/02/2024",
+        "title": "Spotify Clone",
+        "description": "SpotiClone is a dynamic web application that replicates some functionality of Spotify, allowing users to play songs directly from their browser. Developed using HTML, CSS, and JavaScript, SpotiClone fetches songs from a local song folder using the Fetch API, providing users with a seamless music streaming experience.",
+        "url": "https://riturajsingh.freewebhostmost.com/",
+        "imgSrc": "https://i.postimg.cc/SRnw5xRq/Screenshot-2024-04-19-014158.png"
+      },
+      {
+        "date": "07/03/2024",
+        "title": "Twitter-Homepage-Design-Clone",
+        "description": "TwitClone is a replica of the Twitter homepage design, built using HTML and Tailwind CSS. While not functional, TwitClone recreates the visual elements and layout of the Twitter homepage.",
+        "url": "https://twitxclone.netlify.app/",
+        "imgSrc": "https://i.postimg.cc/hvYxKcnK/Screenshot-2024-04-19-015740.png"
       }
     ],
     "skills":[

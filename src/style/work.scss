@@ -23,20 +23,24 @@
     align-items: center;
     justify-content: center;
     > article {
-      width: 85%;
+      width: 95%;
       display: flex;
       align-items: center;
       justify-content: center;
+      .carousel-root{
+        width: 100%;
+      }
       .myWork {
         margin: auto;
-        height: 30vmax;
+        height: 100%;
+        padding: 2rem 0rem;
         width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 2rem;
         > img {
-          height: 16vmax;
+          height: 12vmax;
           width: 70%;
           object-fit: cover;
           overflow: hidden;
@@ -44,6 +48,7 @@
           box-shadow: 12px 12px 24px currentColor;
         }
         >aside{
+          overflow-y: auto;
                 width: 100%;
                 color: white;
                 >h3{

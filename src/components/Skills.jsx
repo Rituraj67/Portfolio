@@ -11,14 +11,11 @@ const Skills = () => {
     return (
         <div id='skills'>
             <h1>SKILLS</h1>
-            <div className="icons">
-
-            </div>
             <div className="skillContainer">
                 {
                     data.skills.map((item, index) => (
                         <SkillItem key={index} title={item.title} desc={item.description} index={index} />
-                    ))};
+                    ))}
             </div>
 
         </div>
@@ -41,7 +38,7 @@ return index%2==0? <motion.div initial={{
     }}
     transition={{ duration:0.6}}
      className="skills">
-        <h2>{title}{icon[index].map(i=>i)}</h2>
+        <div><h2>{title}</h2> <span>{icon[index].map(i=>i)}</span></div>
         <p>{desc}</p>
     </motion.div>: <motion.div initial={{
         opacity:0,
@@ -56,7 +53,7 @@ return index%2==0? <motion.div initial={{
     }}
     transition={{ duration:0.7}}
      className="skills">
-        <h2>{title} {icon[index].map(i=>i)}</h2>
+        <div><h2>{title}</h2> <span>{icon[index].map(i=>i)}</span></div>
         <p>{desc}</p>
     </motion.div>
 }
