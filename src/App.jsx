@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Menu menu={menu} setmenu={setmenu} />
-      {/* <UpwardArrow/> */}
+      <UpwardArrow/>
       <Header menu={menu} setmenu={setmenu}/>
       <Home/>
       <Work/>
@@ -43,17 +43,17 @@ function App() {
     </>
   )
 }
-// const UpwardArrow=()=>(
-//   <a href="#"><FaArrowCircleUp style={{
-//     position:'fixed',
-//     bottom:'4%',
-//     cursor:'pointer',
-//     right:'2%',
-//     color:'#3f0550',
-//     fontSize: '2.5rem',
-//     borderRadius:'50%',
-//     backgroundColor:'white'
-//   }}/></a>
-// )
+const UpwardArrow=()=>(
+  <a href="#"><FaArrowCircleUp style={{
+    position:'fixed',
+    bottom:'4%',
+    cursor:'pointer',
+    right:'2%',
+    color:'#3f0550',
+    fontSize: '2.5rem',
+    borderRadius:'50%',
+    backgroundColor:'white'
+  }}/></a>
+)
 
 export default App

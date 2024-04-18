@@ -1,6 +1,8 @@
 #timeline{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    overflow-x: hidden;
+
     position: relative;
     border-bottom: 4px solid black;
     border-top: 4px solid black;

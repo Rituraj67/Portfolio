@@ -1,7 +1,9 @@
 #work {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 5rem 10rem;
+  overflow-x: hidden;
+
   > h2 {
     font: 700 2rem $font5;
     width: fit-content;
