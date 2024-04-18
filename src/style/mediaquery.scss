@@ -1,0 +1,408 @@
+@media screen and (max-width: 1410px) {
+  #work {
+    > section {
+      > article {
+        .myWork {
+          width: 65%;
+          > img {
+            width: 56%;
+            height: 16vmax;
+          }
+          > aside {
+            height: 100%;
+            overflow-y: auto;
+          }
+        }
+      }
+    }
+  }
+  #home {
+    > section {
+      &:first-of-type {
+        > div {
+          > aside {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #work {
+    padding: 5rem 2rem;
+    > section {
+      > article {
+        .myWork {
+          width: 60%;
+        }
+      }
+    }
+  }
+  #home {
+    > section {
+      &:first-of-type {
+        > div {
+          > aside {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+  #contact {
+    .container {
+      width: 80%;
+    }
+  }
+  #aboutme {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #work {
+    > section {
+      height: 85%;
+      > article {
+        height: 100%;
+        position: relative;
+        .carousel-root {
+          height: 100%;
+          .myWork {
+            padding-top: 1rem;
+            padding-bottom: 6rem;
+            overflow-y: auto;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            > img {
+              height: 75%;
+            }
+            > aside {
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #home {
+    > section {
+      &:first-of-type {
+        > div {
+          > aside {
+            flex-direction: column;
+            > article {
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #timeline {
+    .timelineBox {
+      max-width: 80%;
+    }
+  }
+  #skills {
+    height: 100%;
+    .skillContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+  #aboutme {
+    height: 100%;
+    padding: 2rem 4rem;
+  }
+  #contact {
+    .container {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #work {
+    > section {
+      > article {
+        .carousel-root {
+          .myWork {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  #home {
+    > section {
+      &:first-of-type {
+        padding-left: 1rem;
+      }
+      &:last-of-type {
+      }
+    }
+  }
+  #contact {
+    .container {
+      width: 100%;
+    }
+  }
+  #footer {
+    padding: 1rem;
+    .top {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 1rem;
+    }
+    > p {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #work {
+    > section {
+      > article {
+        .carousel-root {
+          .myWork {
+            width: 40%;
+            height: 80%;
+            padding-bottom: 0rem;
+            > img {
+              width: 80%;
+              height: 45%;
+            }
+            > aside {
+              > h3 {
+                font-size: 1.5rem;
+              }
+              > p {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #home {
+    > section {
+      &:first-of-type {
+        > div {
+          > h1 {
+            font-size: 3rem;
+          }
+          > div {
+            > a {
+              &:first-of-type {
+                padding: 0.8rem 1.3rem;
+              }
+            }
+          }
+        }
+      }
+      &:last-of-type {
+        justify-content: center;
+        > img {
+          height: 25vmax;
+          width: 25vmax;
+        }
+        &::after {
+          height: 25vmax;
+          width: 25vmax;
+        }
+      }
+    }
+    > svg {
+      bottom: -5%;
+    }
+  }
+  #timeline {
+    .timelineBox {
+      max-width: 87%;
+    }
+  }
+  #aboutme {
+    padding: 0rem 2rem;
+  }
+  #contact {
+    padding: 4rem 1rem;
+    .container {
+      .form {
+        padding: 2rem;
+      }
+    }
+  }
+  #footer {
+    > p {
+      letter-spacing: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #work {
+    > section {
+      > article {
+        .carousel-root {
+          .myWork {
+            width: 36%;
+            height: 100%;
+            > img {
+              height: 40%;
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+  #home {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    > section {
+      &:first-of-type {
+        height: 100%;
+
+        > div {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          border: none;
+
+          > h1 {
+            font-size: 2rem;
+          }
+          > div {
+            > a {
+              &:first-of-type {
+                > div {
+                  > div {
+                    width: 100%;
+                    justify-content: center;
+                  }
+                  > aside {
+                    article {
+                      align-self: center;
+                      align-self: center;
+                      > p {
+                        font-size: 1.5rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &:last-of-type {
+        height: 100%;
+
+        position: relative;
+        padding: 2rem 0rem;
+        > img {
+          position: relative;
+          width: 25vmax;
+          height: 25vmax;
+        }
+        &::after {
+          position: absolute;
+          width: 25vmax;
+          height: 25vmax;
+        }
+      }
+    }
+    > svg {
+      bottom: 5%;
+    }
+  }
+  #timeline {
+    > .timelineBox {
+      .timelineItem {
+        > div {
+          padding: 1rem;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  #skills {
+    width: 90%;
+  }
+  #contact {
+    .container {
+      .form {
+        padding: 1rem;
+      }
+    }
+  }
+  #footer {
+    > p {
+      align-items: baseline;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #work {
+    > section {
+      > article {
+        .carousel-root {
+          .myWork {
+            width: 30%;
+            height: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  #aboutme {
+    padding: 0rem 1rem;
+  }
+  #contact {
+    .container {
+      .form {
+        padding: 1rem 0rem;
+        > form {
+          height: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    padding: 0rem 1rem;
+    >button{
+      > svg {
+        display: inline;
+      }
+    }
+    > div {
+      > a {
+        display: none;
+      }
+    }
+    > a {
+      > button {
+        display: none;
+      }
+    }
+  }
+  #home{
+    position: relative;
+    >svg{
+      bottom: -6%;
+    }
+  }
+}

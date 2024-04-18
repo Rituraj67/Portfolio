@@ -1,0 +1,148 @@
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    background-color: $color1;
+    padding: 0px 5rem;
+    z-index: 20;
+    
+    
+    >h2{
+        font-size: 2.3rem;
+        font-weight: 750;
+        color: #7800a8;
+        font-family: $font5;
+        text-shadow: 3px 3px 6px rgb(80, 77, 77);
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        >a{
+            color: $color6;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            font-family: $font4;
+            &:hover{
+                color: white;
+                text-shadow: 1px 1px 3px currentColor;;
+            }
+        }
+    }
+    > a > button{
+        box-shadow: 0px 0px 4px currentColor;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 4px 16px;
+        border-radius: 4px;
+        background-color: $color1;
+        :nth-child(2){
+            font-weight: 550;
+        }
+        &:hover{
+            box-shadow: 2px 2px 4px currentColor;
+            cursor: pointer;
+            span{
+                color: rgb(123, 117, 117);
+            }
+        }
+    }
+    // >a{
+    //     >svg{
+    //         position: fixed;
+    //         font-size: 2.5rem;
+    //         background-color: white;
+    //         border-radius: 50%;
+    //         right: 2%;
+    //         bottom: 4%;
+    //         color: $color5;
+    //         cursor: pointer;
+    //     }
+    // } 
+    >button{
+        border: none;
+        background-color: transparent;
+        >svg{
+            font-size: 1.5rem;
+            display: none;
+        }
+    }
+
+}
+
+.menubar{
+    transition: all 0.5s ease-in;
+    transform: translateY(-200%);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >h2{
+        font-size: 2rem;
+        font-weight: 750;
+        color: #7800a8;
+        font-family: $font5;
+        text-shadow: 3px 3px 6px rgb(80, 77, 77);
+    }
+    >div{
+        display: flex;
+        height: 70%;
+        flex-direction: column;
+        justify-content: space-around;
+        >a{
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: $font5;
+            cursor: pointer;
+            color: black;
+            &:hover{
+                color: white;
+                text-shadow: 1px 1px 3px currentColor;;
+            }
+        }
+    }
+    > a > button{
+        box-shadow: 0px 0px 4px currentColor;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 4px 16px;
+        border-radius: 4px;
+        background-color: $color1;
+        :nth-child(2){
+            font-weight: 550;
+        }
+        &:hover{
+            box-shadow: 2px 2px 4px currentColor;
+            cursor: pointer;
+            span{
+                color: rgb(123, 117, 117);
+            }
+        }
+    }
+    >button{
+        font-size: 3rem;
+            right: 5%;
+            top: 3%;
+            border: none;
+            background-color: transparent;
+            position: absolute;   
+    }
+}
+.menuopen{
+    transform: translateY(0%);
+    position: relative;
+}
