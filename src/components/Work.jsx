@@ -17,7 +17,7 @@ const Work = () => {
                         <aside>
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>
-                            <a href={item.url} target={"blank"} >View Project</a>
+                            <a href={item.url} target='blank' >View Project</a>
                         </aside>
                        </div>
                     ))
