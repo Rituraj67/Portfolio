@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "date": "27/08/2024",
+        "title": "quIET",
+        "description": "quIET is an anonymous social media platform designed to let users freely express their thoughts and opinions without revealing their true identity. In an era where maintaining a public image can be challenging, quIET offers a safe space where users can interact, post comments, and engage in discussions without the pressure of being judged. Each user is assigned a randomly generated username, ensuring that personal details like names and email addresses remain confidential. The platform is powered by PostgreSQL with Prisma, React, Express, Node.js, and hosted on Microsoft Azure.",
+        "url": "https://www.bequiet.live/",
+        "imgSrc": "https://res.cloudinary.com/dby3ovl1f/image/upload/v1724777475/main/1724777472981.png"
+      },
+      {
         "date": "11/04/2024",
         "title": "Crypto Canvas",
         "description": "Crypto Canvas is a dynamic web application designed to provide real-time data on various cryptocurrencies. Leveraging the CoinGecko API, the app fetches live cryptocurrency data and displays it using React.js, React Chart, and Chakra UI for enhanced visualization and user interface design.",
@@ -15,35 +22,15 @@
         "url": "https://keychroma.vercel.app/",
         "imgSrc": "https://i.postimg.cc/CK0w9kbN/Screenshot-2024-04-19-013731.png"
       },
-      {
-        "date": "14/04/2024",
-        "title": "ArtistryArc",
-        "description": "Artistry Arc is a captivating portfolio website meticulously crafted with React.js, SCSS, and Firebase integration. Designed to showcase your creative works and professional accomplishments, Artistry Arc offers a visually stunning and interactive platform for visitors to explore your portfolio and connect with you through a seamless contact form.",
-        "url": "/#",
-        "imgSrc": "https://i.postimg.cc/xdBhW2rS/Screenshot-2024-04-19-013906.png"
-      },
-  
-      {
-        "date": "12/03/2024",
-        "title": "iScheduleia",
-        "description": "iScheduleia is a sleek and intuitive todo list application built with React.js and styled using Tailwind CSS. Designed to help users organize their tasks efficiently, Scheduleia stores todo items locally in the browser's storage, ensuring seamless access to task lists across sessions.",
-        "url": "https://ischeduleia.vercel.app/",
-        "imgSrc": "https://i.postimg.cc/qvT8DDDZ/Screenshot-2024-04-19-014033.png"
-      },
+      
       {
         "date": "29/02/2024",
         "title": "Spotify Clone",
         "description": "SpotiClone is a dynamic web application that replicates some functionality of Spotify, allowing users to play songs directly from their browser. Developed using HTML, CSS, and JavaScript, SpotiClone fetches songs from a local song folder using the Fetch API, providing users with a seamless music streaming experience.",
         "url": "https://riturajsingh.freewebhostmost.com/",
         "imgSrc": "https://i.postimg.cc/SRnw5xRq/Screenshot-2024-04-19-014158.png"
-      },
-      {
-        "date": "07/03/2024",
-        "title": "Twitter-Homepage-Design-Clone",
-        "description": "TwitClone is a replica of the Twitter homepage design, built using HTML and Tailwind CSS. While not functional, TwitClone recreates the visual elements and layout of the Twitter homepage.",
-        "url": "https://twitxclone.netlify.app/",
-        "imgSrc": "https://i.postimg.cc/hvYxKcnK/Screenshot-2024-04-19-015740.png"
       }
+      
     ],
     "skills":[
       {
