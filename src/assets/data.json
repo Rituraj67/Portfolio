@@ -3,7 +3,7 @@
       {
         "date": "27/08/2024",
         "title": "quIET",
-        "description": "quIET is an anonymous social media platform designed to let users freely express their thoughts and opinions without revealing their true identity. In an era where maintaining a public image can be challenging, quIET offers a safe space where users can interact, post comments, and engage in discussions without the pressure of being judged. Each user is assigned a randomly generated username, ensuring that personal details like names and email addresses remain confidential. The platform is powered by PostgreSQL with Prisma, React, Express, Node.js, and hosted on Microsoft Azure.",
+        "description": "quIET is an anonymous social media platform designed to let users freely express their thoughts and opinions without revealing their true identity. In an era where maintaining a public image can be challenging. Each user is assigned a randomly generated username, ensuring that personal details like names and email addresses remain confidential. The platform is powered by PostgreSQL with Prisma, React, Express, Node.js, and hosted on Microsoft Azure.",
         "url": "https://www.bequiet.live/",
         "imgSrc": "https://res.cloudinary.com/dby3ovl1f/image/upload/v1724777475/main/1724777472981.png"
       },
