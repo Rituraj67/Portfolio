@@ -16,10 +16,10 @@ const Footer = () => {
       <div className="top">
         <div className="socialLinks">
           <h3>Social Links:</h3>
-          <a href="https://www.linkedin.com/in/rituraj67/"><SiLinkedin /></a>
-          <a href=""><SiGithub /></a>
-          <a href=""><SiTwitter /></a>
-          <a href=""><BsInstagram /></a>
+          <a target='blank' href="https://www.linkedin.com/in/rituraj67/"><SiLinkedin /></a>
+          <a target='blank' href="https://github.com/Rituraj67"><SiGithub /></a>
+          <a target='blank' href="https://x.com/Rituraj_67"><SiTwitter /></a>
+          <a target='blank' href="https://www.instagram.com/riturajsingh.67/"><BsInstagram /></a>
         </div>
 
         <div className='footnav'>
