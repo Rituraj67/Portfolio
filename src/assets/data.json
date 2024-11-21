@@ -27,7 +27,7 @@
         "date": "29/02/2024",
         "title": "Spotify Clone",
         "description": "SpotiClone is a dynamic web application that replicates some functionality of Spotify, allowing users to play songs directly from their browser. Developed using HTML, CSS, and JavaScript, SpotiClone fetches songs from a local song folder using the Fetch API, providing users with a seamless music streaming experience.",
-        "url": "https://riturajsingh.freewebhostmost.com/",
+        "url": "https://riturajmusicplayer.freewebhostmost.com",
         "imgSrc": "https://i.postimg.cc/SRnw5xRq/Screenshot-2024-04-19-014158.png"
       }
       

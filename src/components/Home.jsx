@@ -55,7 +55,7 @@ const Home = () => {
                         cursor: "",
                     }} />
                     <div >
-                        <a href="https://flowcv.com/resume/si8h4b35il" target='blank' >Resume</a>
+                        <a href="https://drive.google.com/drive/folders/1VgbL9aIqCOFY8knQ4a6r9X8V28hASQE1?usp=sharing" target='blank' >Resume</a>
                         <a href="#work">My Projects<BsArrowUpRight /></a>
                     </div>
                     <aside>
@@ -65,7 +65,7 @@ const Home = () => {
                         </article>
                         <article data-special>
                             <p>Contact</p>
-                            <span>2300520140055@ietlucknow.ac.in</span>
+                            <span>Riturajs.1742@gmail.com</span>
                         </article>
                     </aside>
                 </div>
