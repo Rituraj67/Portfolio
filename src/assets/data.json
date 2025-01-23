@@ -8,6 +8,13 @@
       "imgSrc": "https://i.postimg.cc/zBSsVMzp/Screenshot-2024-08-27-222017.png"
     },
     {
+      "date": "19/03/2024",
+      "title": "Key Chroma",
+      "description": "KeyChroma is a secure and intuitive password manager web application designed to store usernames, passwords, and website URLs with encryption. Built with React.js for dynamic user interaction and styled using Tailwind CSS for a clean, responsive interface, KeyChroma ensures efficient and user-friendly management of sensitive credentials. The application is deployed on AWS EC2, with Docker used for containerization and NGINX as a reverse proxy. CI/CD pipelines are implemented using Jenkins to ensure seamless and automated deployment workflows.",
+      "url": "https://keychroma.vercel.app/",
+      "imgSrc": "https://i.postimg.cc/CK0w9kbN/Screenshot-2024-04-19-013731.png"
+    },
+    {
       "date": "11/04/2024",
       "title": "Crypto Canvas",
       "description": "Crypto Canvas is a dynamic web application designed to provide real-time data on various cryptocurrencies. Leveraging the CoinGecko API, the app fetches live cryptocurrency data and displays it using React.js, React Chart, and Chakra UI for enhanced visualization and user interface design.",
@@ -15,20 +22,21 @@
       "imgSrc": "https://i.postimg.cc/HkPJgJv7/Screenshot-2024-04-19-010518.png"
     },
 
-    {
-      "date": "19/03/2024",
-      "title": "Key Chroma",
-      "description": "Key Chroma is a user-friendly password manager web application built to securely store usernames, passwords, and website URLs locally. Developed using React.js and styled with Tailwind CSS, SecurePass offers a streamlined and intuitive interface for managing sensitive login information.",
-      "url": "https://keychroma.vercel.app/",
-      "imgSrc": "https://i.postimg.cc/CK0w9kbN/Screenshot-2024-04-19-013731.png"
-    },
 
     {
       "date": "29/02/2024",
-      "title": "Spotify Clone",
+      "title": "Music Player",
       "description": "SpotiClone is a dynamic web application that replicates some functionality of Spotify, allowing users to play songs directly from their browser. Developed using HTML, CSS, and JavaScript, SpotiClone fetches songs from a local song folder using the Fetch API, providing users with a seamless music streaming experience.",
       "url": "https://riturajmusicplayer.freewebhostmost.com",
       "imgSrc": "https://i.postimg.cc/SRnw5xRq/Screenshot-2024-04-19-014158.png"
+    }, 
+
+    {
+      "date": "16/01/2025",
+      "title": "CloudVault",
+      "description": "This project showcases the integration of AWS S3 for secure and efficient file storage operations, including creating buckets, uploading, downloading, and managing objects. Built with Node.js and the AWS SDK, it provides a practical foundation for incorporating scalable cloud storage solutions into modern applications.",
+      "url": "https://github.com/Rituraj67/S3_Bucket_Practice",
+      "imgSrc": "https://i.postimg.cc/T38ZyfdV/Screenshot-2025-01-23-220306.png"
     }
   ],
   "skills": [
