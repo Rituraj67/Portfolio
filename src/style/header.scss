@@ -34,25 +34,13 @@ nav {
       }
     }
   }
-  > a > button {
-    box-shadow: 0px 0px 4px currentColor;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    padding: 4px 16px;
-    border-radius: 4px;
-    background-color: $color1;
-    :nth-child(2) {
-      font-weight: 550;
+  
+  > a {
+    color: black;
+    > svg{
+      scale: 1.8;
     }
-    &:hover {
-      box-shadow: 2px 2px 4px currentColor;
-      cursor: pointer;
-      span {
-        color: rgb(123, 117, 117);
-      }
-    }
+
   }
   // >a{
   //     >svg{
@@ -113,24 +101,10 @@ nav {
       }
     }
   }
-  > a > button {
-    box-shadow: 0px 0px 4px currentColor;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    padding: 4px 16px;
-    border-radius: 4px;
-    background-color: $color1;
-    :nth-child(2) {
-      font-weight: 550;
-    }
-    &:hover {
-      box-shadow: 2px 2px 4px currentColor;
-      cursor: pointer;
-      span {
-        color: rgb(123, 117, 117);
-      }
+  > a {
+    display: none;
+    > svg{
+      scale: 1.8;
     }
   }
   > button {

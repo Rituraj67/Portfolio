@@ -1,9 +1,16 @@
 import React from 'react'
 import data from '../assets/data.json'
 import { motion } from 'framer-motion'
+import { GiBrain } from "react-icons/gi";
 import { FaJava, FaReact,FaNode,FaSass, FaGithub,FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress,SiMongodb, SiChakraui, SiTailwindcss,SiNextdotjs , SiRedux } from "react-icons/si";
+import { AiOutlineConsoleSql } from "react-icons/ai";
+import { FaJenkins,FaDocker,FaAws  } from "react-icons/fa";
+import { SiGithubactions } from "react-icons/si";
+import { DiNginx } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { TbBrandMysql } from "react-icons/tb";
 
 
 const Skills = () => {
@@ -57,9 +64,8 @@ return index%2==0? <motion.div initial={{
         <p>{desc}</p>
     </motion.div>
 }
- const icon= [[<FaJava />],[<IoLogoJavascript />],[<FaSass/>,<SiChakraui/>, <SiTailwindcss/>], [<SiMongodb/>,<SiExpress/>,<FaReact/>,<FaNode/>],[<FaReact/>,<SiRedux/>, <SiNextdotjs/>], [<FaGitAlt/>,<FaGithub/>] ]
 
-
+const icon= [[<FaReact/>, <SiRedux/>,<SiExpress/>,<FaNode/>,<SiNextdotjs/> ,<SiTailwindcss/>],[<GiBrain />],[<FaJenkins/>, <FaDocker/> , <DiNginx/>, <SiGithubactions/>], [<FaJava/>, <IoLogoJavascript/>, <AiOutlineConsoleSql/>],[<SiMongodb/>, <BiLogoPostgresql/>, <TbBrandMysql/>  ], [<FaGitAlt/>,<FaGithub/>] ]
 
 
 export default Skills

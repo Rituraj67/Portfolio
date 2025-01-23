@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 const Header = ({menu,setmenu}) => {
 
   return (
@@ -22,8 +24,8 @@ export const NavContent=({menu,setmenu})=>(
         <a onClick={()=>setmenu(!menu)} href="#aboutme">AboutMe</a>
         <a onClick={()=>setmenu(!menu)} href="#contact">Contact</a>
     </div>
-    <a onClick={()=>setmenu(!menu)} href="mailto:2300520140055@ietlucknow.ac.in">
-    <button><span class="material-symbols-outlined">mail</span><span>Email</span></button>
+    <a onClick={()=>setmenu(!menu)} target='_blank' href="https://github.com/Rituraj67">
+    <GitHubIcon/>
     </a>
     </>
 )
